@@ -1,15 +1,20 @@
 {
-    "description": "Merlin06",
-    "version": "0.0.1",
-    "includePath": [
-        "M06_SRC/QPROTOSRC    "
-    ],
-    "repository": "git@github.com:AdrianAtArcad/M06Lab.git",
-    "objlib": "&L01",
-    "curlib": "*CRTDFT",
-    "extensions": {
-        "arcad": {
-            "libraryPrefix": "M06"
-        }
+  "description": "Merlin06",
+  "version": "0.0.1",
+  "includePath": [
+    "M06_SRC/QPROTOSRC"
+  ],
+  "repository": "git@github.com:AdrianAtArcad/M06Lab.git",
+  "objlib": "merdft0000",
+  "curlib": "*CRTDFT",
+  "extensions": {
+    "arcad": {
+      "libraryPrefix": "MER",
+      "code": "MER",
+      "iasp": "",
+      "validated": true
     }
+  },
+  "buildCommand": "elias compile {branch}",
+  "compileCommand": "elias compile {branch} -f {filename}"
 }
