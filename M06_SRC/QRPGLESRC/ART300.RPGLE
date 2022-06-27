@@ -79,7 +79,7 @@
          return ARMINQTY;
       /end-free
      pGetArtMinStock   e
-      *=============================================
+      *==============================================
      PGetArtVatCode    B                     export
      DGetArtVatCode    PI                   like(arvatcd)
      D P_ARID                         6A    value
