@@ -5,7 +5,7 @@
         "M06_SRC/QPROTOSRC    "
     ],
     "repository": "git@github.com:bmarolleau/MerlinLab.git",
-    "objlib": "&L01",
+    
     "curlib": "*CRTDFT",
     "extensions": {
         "arcad": {
