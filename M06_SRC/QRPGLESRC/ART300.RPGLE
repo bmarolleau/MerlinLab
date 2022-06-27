@@ -127,7 +127,7 @@
      p chainARTICLE1   e
 
      p closeARTICLE1   b
-     d closeARTICLE1   pi
+     d closeARTICLE1    pi
       /free
         if %open(ARTICLE1);
           close ARTICLE1;
