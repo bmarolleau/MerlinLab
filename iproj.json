@@ -14,7 +14,8 @@
       "validated": true
     }
   },
-  "objlib": "&verlibapp01",
   "buildCommand": "elias compile {branch}",
-  "compileCommand": "elias compile {branch} -f {filename}"
+  "compileCommand": "elias compile {branch} -f {filename}",
+  "objlib": "*CRTDFT"
+}01"
 }
