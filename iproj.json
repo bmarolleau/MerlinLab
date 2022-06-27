@@ -9,7 +9,7 @@
     "curlib": "*CRTDFT",
     "extensions": {
         "arcad": {
-            "libraryPrefix": "M00"
+            "libraryPrefix": "BEN"
         }
     }
 }
