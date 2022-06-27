@@ -1,15 +1,20 @@
 {
-    "description": "MerlinLab",
-    "version": "0.0.1",
-    "includePath": [
-        "M06_SRC/QPROTOSRC   "
-    ],
-    "repository": "git@github.com:bmarolleau/MerlinLab.git",
-    
-    "curlib": "*CRTDFT",
-    "extensions": {
-        "arcad": {
-            "libraryPrefix": "M06"
-        }
+  "description": "MerlinLab",
+  "version": "0.0.1",
+  "includePath": [
+    "M06_SRC/QPROTOSRC"
+  ],
+  "repository": "git@github.com:bmarolleau/MerlinLab.git",
+  "curlib": "*CRTDFT",
+  "extensions": {
+    "arcad": {
+      "libraryPrefix": "M06",
+      "code": "APP01",
+      "iasp": "",
+      "validated": true
     }
+  },
+  "objlib": "&verlibapp01",
+  "buildCommand": "elias compile {branch}",
+  "compileCommand": "elias compile {branch} -f {filename}"
 }
