@@ -17,5 +17,4 @@
   "buildCommand": "elias compile {branch}",
   "compileCommand": "elias compile {branch} -f {filename}",
   "objlib": "*CRTDFT"
-}01"
 }
