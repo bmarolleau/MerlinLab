@@ -1,15 +1,15 @@
 {
-    "description": "Merlin06",
+    "description": "MerlinLab",
     "version": "0.0.1",
     "includePath": [
         "M06_SRC/QPROTOSRC    "
     ],
-    "repository": "git@github.com:AdrianAtArcad/M06Lab.git",
+    "repository": "git@github.com:bmarolleau/MerlinLab.git",
     "objlib": "&L01",
     "curlib": "*CRTDFT",
     "extensions": {
         "arcad": {
-            "libraryPrefix": "M06"
+            "libraryPrefix": "M00"
         }
     }
 }
