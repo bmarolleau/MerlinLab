@@ -1,4 +1,4 @@
-12:35:31.455 [INFO] Connecting locally to instance AD/ENG.
-12:35:32.369 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.02 with CCSID 37
-12:35:32.858 [INFO] Starting project synchronization
-12:35:36.186 [ERROR] Command 'compile' failed: com.arcadsoftware.elias.commons.exceptions.EliasException: Remote branch version1 exists but is not linked to a version; create the version then use ARCAD-Builder to create the link.
+12:41:13.288 [INFO] Connecting locally to instance AD/ENG.
+12:41:14.134 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.02 with CCSID 37
+12:41:14.622 [INFO] Starting project synchronization
+12:41:17.550 [ERROR] Command 'compile' failed: com.arcadsoftware.elias.commons.exceptions.EliasException: Remote branch version1 exists but is not linked to a version; create the version then use ARCAD-Builder to create the link.
