@@ -1,6 +1,0 @@
-      /*%METADATA                                                     */
-      /* %TEXT                                                        */
-      /*%EMETADATA                                                    */
-                                            UNIQUE
-                R FPROV                     PFILE(PROVIDER)
-                K PRID

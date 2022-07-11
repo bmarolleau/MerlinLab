@@ -1,7 +1,0 @@
-      /*%METADATA                                                     */
-      /* %TEXT                                                        */
-      /*%EMETADATA                                                    */
-                                            UNIQUE
-                R FDETO                     PFILE(DETORD)
-                K ODORID
-                K ODLINE
