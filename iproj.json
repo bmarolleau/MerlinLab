@@ -1,18 +1,17 @@
 {
-  "description": "demoAdmin application",
-  "version": "0.0.1",
-  "includePath": [],
   "repository": "git@github.com:bmarolleau/MerlinLab.git",
+  "description": "demoAdmin application",
+  "includePath": [],
   "objlib": "&verlibapp01",
   "curlib": "*CRTDFT",
+  "buildCommand": "elias compile {branch}",
+  "compileCommand": "elias compile {branch} -f {filename}",
   "extensions": {
     "arcad": {
       "code": "APP01",
-      "libraryPrefix": "APP01",
-      "iasp": "*SYSBAS",
-      "validated": false 
+      "libraryPrefix": "APP",
+      "iasp": "",
+      "validated": true
     }
-  },
-  "buildCommand": "elias compile {branch}",
-  "compileCommand": "elias compile {branch} -f {filename}"
+  }
 }

@@ -1,4 +1,4 @@
-00:41:39.424 [INFO] Connecting locally to instance AD/ENG.
-00:41:40.428 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.00 with CCSID 37
-00:41:40.961 [INFO] Starting project synchronization
-00:41:41.567 [ERROR] Command 'compile' failed: java.io.IOException: Version APP01 DEV SB.00.00 operational attribute CHKFROMREF must be set to *SCM.
+01:26:18.135 [INFO] Connecting locally to instance AD/ENG.
+01:26:19.123 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.00 with CCSID 37
+01:26:19.424 [INFO] Starting project synchronization
+01:26:20.577 [ERROR] Command 'compile' failed: java.io.IOException: Version APP01 DEV SB.00.00 operational attribute CHKFROMREF must be set to *SCM.
