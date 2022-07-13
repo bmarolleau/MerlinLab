@@ -10,7 +10,7 @@
       "code": "APP01",
       "libraryPrefix": "APP01",
       "iasp": "*SYSBAS",
-      "validated": false
+      "validated": false 
     }
   },
   "buildCommand": "elias compile {branch}",
