@@ -5,7 +5,7 @@
 
      FARTICLE1  if   e           k disk    usropn
 
-      /COPY ../QPROTOSRC/ARTICLE.RPGLE
+      /COPY ../QPROTOSRC/ARTICLE.RPGLE 
 
      d chainARTICLE1   pr
      D P_ARID                         6A    value
