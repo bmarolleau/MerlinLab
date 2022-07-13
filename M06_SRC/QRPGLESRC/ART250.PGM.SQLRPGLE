@@ -8,7 +8,7 @@
          Infds(Info)
          indds(indds);
        dcl-f  article1 disk keyed;
-       dcl-f  artipro2 disk keyed; 
+       dcl-f  artipro2 disk keyed;  
 
       /COPY ../QPROTOSRC/FAMILLY.RPGLE
       /COPY ../QPROTOSRC/ARTICLE.RPGLE
