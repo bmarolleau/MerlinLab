@@ -1,6 +1,4 @@
-12:07:22.704 [INFO] Connecting locally to instance AD/ENG.
-12:07:23.687 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.00 with CCSID 37
-12:07:24.239 [INFO] Starting project synchronization
-12:07:24.855 [ERROR] Error during AOPNVER APP(APP01) ENV(*NONE) REFVERNBR('01.00.00') VERTYPE(*SANDBOX) PRJCTMSTR(BENOIT) TEXT('Sandbox 01.00.00 version for BENOIT') INCRMODE(*REFVERS) execution:
-	[MSG9802] [30] Environment ID *NONE for application APP01 not found.
-12:07:24.874 [ERROR] Command 'compile' failed: java.sql.SQLException: Could not open version using command AOPNVER APP(APP01) ENV(*NONE) REFVERNBR('01.00.00') VERTYPE(*SANDBOX) PRJCTMSTR(BENOIT) TEXT('Sandbox 01.00.00 version for BENOIT') INCRMODE(*REFVERS)
+00:41:39.424 [INFO] Connecting locally to instance AD/ENG.
+00:41:40.428 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.00 with CCSID 37
+00:41:40.961 [INFO] Starting project synchronization
+00:41:41.567 [ERROR] Command 'compile' failed: java.io.IOException: Version APP01 DEV SB.00.00 operational attribute CHKFROMREF must be set to *SCM.
