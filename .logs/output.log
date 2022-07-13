@@ -1,4 +1,6 @@
-14:48:30.924 [INFO] Connecting locally to instance AD/ENG.
-14:48:31.899 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.00 with CCSID 37
-14:48:32.447 [INFO] Starting project synchronization
-14:48:32.898 [ERROR] Command 'compile' failed: com.arcadsoftware.elias.commons.exceptions.EliasApplicationNotFoundException: Application APP01 or linked to Git URI git@github.com:bmarolleau/MerlinLab.git does not exist. Please create it from the IBM i Project Explorer.
+12:07:22.704 [INFO] Connecting locally to instance AD/ENG.
+12:07:23.687 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.00 with CCSID 37
+12:07:24.239 [INFO] Starting project synchronization
+12:07:24.855 [ERROR] Error during AOPNVER APP(APP01) ENV(*NONE) REFVERNBR('01.00.00') VERTYPE(*SANDBOX) PRJCTMSTR(BENOIT) TEXT('Sandbox 01.00.00 version for BENOIT') INCRMODE(*REFVERS) execution:
+	[MSG9802] [30] Environment ID *NONE for application APP01 not found.
+12:07:24.874 [ERROR] Command 'compile' failed: java.sql.SQLException: Could not open version using command AOPNVER APP(APP01) ENV(*NONE) REFVERNBR('01.00.00') VERTYPE(*SANDBOX) PRJCTMSTR(BENOIT) TEXT('Sandbox 01.00.00 version for BENOIT') INCRMODE(*REFVERS)
