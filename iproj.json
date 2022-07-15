@@ -1,6 +1,6 @@
 {
   "repository": "git@github.com:bmarolleau/MerlinLab.git",
-  "description": "demoAdmin application",
+  "description": "demoAdmin application ",
   "includePath": [],
   "objlib": "&verlibapp01",
   "curlib": "*CRTDFT",
