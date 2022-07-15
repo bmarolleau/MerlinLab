@@ -5,7 +5,7 @@
 
      FARTICLE1  if   e           k disk    usropn
 
-      /COPY ../QPROTOSRC/ARTICLE.RPGLE
+      /COPY ../QPROTOSRC/ARTICLE.RPGLE 
 
      d chainARTICLE1   pr
      D P_ARID                         6A    value
@@ -79,7 +79,7 @@
          return ARMINQTY;
       /end-free
      pGetArtMinStock   e
-      *=============================================
+      *==============================================
      PGetArtVatCode    B                     export
      DGetArtVatCode    PI                   like(arvatcd)
      D P_ARID                         6A    value
@@ -127,7 +127,7 @@
      p chainARTICLE1   e
 
      p closeARTICLE1   b
-     d closeARTICLE1   pi
+     d closeARTICLE1    pi
       /free
         if %open(ARTICLE1);
           close ARTICLE1;
