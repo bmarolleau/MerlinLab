@@ -8,7 +8,7 @@
   "compileCommand": "elias compile {branch} -f {filename}",
   "extensions": {
     "arcad": {
-      "code": "APP02",
+      "code": "APP02", 
       "libraryPrefix": "APP02",
       "iasp": "*SYSBAS",
       "validated": false
