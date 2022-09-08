@@ -1,4 +1,6 @@
-22:15:59.674 [INFO] Connecting locally to instance AD/ENG.
-22:16:00.639 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.11 with CCSID 37
-22:16:01.122 [INFO] Starting project synchronization
-22:16:04.181 [ERROR] Command 'compile' failed: com.arcadsoftware.elias.commons.exceptions.EliasLinkedVersionNotFoundException: Linked version of application APP01 not found for branch version1
+11:00:58.066 [INFO] Connecting locally to instance AD/ENG.
+11:00:58.962 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.11 with CCSID 37
+11:00:59.449 [INFO] Starting project synchronization
+11:00:59.951 [ERROR] Error during AOPNVER APP(APP01) ENV(*NONE) REFVERNBR('01.00.00') VERTYPE(*SANDBOX) PRJCTMSTR(USRDEMO1) TEXT('Sandbox 01.00.00 version for USRDEMO1') INCRMODE(*REFVERS) execution:
+	[MSG9802] [30] Environment ID *NONE for application APP01 not found.
+11:00:59.998 [ERROR] Command 'compile' failed: java.sql.SQLException: Could not open version using command AOPNVER APP(APP01) ENV(*NONE) REFVERNBR('01.00.00') VERTYPE(*SANDBOX) PRJCTMSTR(USRDEMO1) TEXT('Sandbox 01.00.00 version for USRDEMO1') INCRMODE(*REFVERS)
