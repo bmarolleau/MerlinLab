@@ -1,0 +1,6 @@
+      /*%METADATA                                                     */
+      /* %TEXT                                                        */
+      /*%EMETADATA                                                    */
+                                            UNIQUE
+                R FCUST                     PFILE(CUSTOMER)
+                K CUID
