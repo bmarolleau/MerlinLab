@@ -1,4 +1,4 @@
-14:48:30.924 [INFO] Connecting locally to instance AD/ENG.
-14:48:31.899 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.00 with CCSID 37
-14:48:32.447 [INFO] Starting project synchronization
-14:48:32.898 [ERROR] Command 'compile' failed: com.arcadsoftware.elias.commons.exceptions.EliasApplicationNotFoundException: Application APP01 or linked to Git URI git@github.com:bmarolleau/MerlinLab.git does not exist. Please create it from the IBM i Project Explorer.
+22:15:59.674 [INFO] Connecting locally to instance AD/ENG.
+22:16:00.639 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.11 with CCSID 37
+22:16:01.122 [INFO] Starting project synchronization
+22:16:04.181 [ERROR] Command 'compile' failed: com.arcadsoftware.elias.commons.exceptions.EliasLinkedVersionNotFoundException: Linked version of application APP01 not found for branch version1
